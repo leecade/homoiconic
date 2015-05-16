@@ -311,7 +311,7 @@ Now, `called_by_name` is not a replacement for macros. There are lots of things 
 
 Of course, `called_by_name` does so with lots of anonymous functions, and that is a much more expensive implementation than using a hygienic macro to rewrite code inline. But it feels like a move in an interesting direction: if it is a win to sometimes meta-program Ruby's syntax with DSLs, it ought to also be a win to sometimes meta-program Ruby's semantics with call-by-name functions.
 
-*(This material was originally published [June, 2008](http://weblog.raganwald.com/2008/06/macros-hygiene-and-call-by-name-in-ruby.html "Macros, Hygiene, and Call By Name in Ruby on raganwald.com"))*
+*(This material was originally published [June, 2008](http://raganwald.com/2008/06/macros-hygiene-and-call-by-name-in-ruby.html "Macros, Hygiene, and Call By Name in Ruby on raganwald.com"))*
 
 Update (December 18, 2008)
 ---
@@ -322,13 +322,17 @@ I am fixing this, and my first priority is to make `called_by_name` work again.
 
 ---
 
-Recent work:
+My recent work:
 
-* "[CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto)", "[Kestrels, Quirky Birds, and Hopeless Egocentricity](http://leanpub.com/combinators)" and my [other books](http://leanpub.com/u/raganwald).
-* [Cafe au Life](http://recursiveuniver.se), a CoffeeScript implementation of Bill Gosper's HashLife written in the [Williams Style](https://github.com/raganwald/homoiconic/blob/master/2011/11/COMEFROM.md).
-* [Katy](http://github.com/raganwald/Katy), a library for writing fluent CoffeeScript and JavaScript using combinators.
-* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily. 
+![](http://i.minus.com/iL337yTdgFj7.png)[![JavaScript Allongé](http://i.minus.com/iW2E1A8M5UWe6.jpeg)](http://leanpub.com/javascript-allonge "JavaScript Allongé")![](http://i.minus.com/iL337yTdgFj7.png)[![CoffeeScript Ristretto](http://i.minus.com/iMmGxzIZkHSLD.jpeg)](http://leanpub.com/coffeescript-ristretto "CoffeeScript Ristretto")![](http://i.minus.com/iL337yTdgFj7.png)[![Kestrels, Quirky Birds, and Hopeless Egocentricity](http://i.minus.com/ibw1f1ARQ4bhi1.jpeg)](http://leanpub.com/combinators "Kestrels, Quirky Birds, and Hopeless Egocentricity")
+
+* [JavaScript Allongé](http://leanpub.com/javascript-allonge), [CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto), and my [other books](http://leanpub.com/u/raganwald).
+* [allong.es](http://allong.es), practical function combinators and decorators for JavaScript.
+* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily.
+* [jQuery Combinators](http://github.com/raganwald/jquery-combinators), what else? A jQuery plugin for writing your own fluent, jQuery-like code.  
 
 ---
+
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
 
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)

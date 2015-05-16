@@ -54,7 +54,7 @@ In this version, `Fibonacci` is an entity in Kernel namespace. You do not call `
 
 Also, the class `Fibonacci::Matrix` explicitly defines `*` and `^` so that we can write arithmetic operations on matrices the way we write them on integers. This is one of the prime motivations for languages like Ruby to permit operator overloading. A comparison of this point to the first version is inconclusive to my eyes. `*` and `^` are terser than `times` and `power`.
 
-However, defining them as operators means making them methods in Ruby. This is a little suspect because our code isn't truly polymorphic. It's not like we write `x = y * z` and are oblivious to the implementation of `*` that `y` provides at run time. This is a failing of many OO programs: They look like OO, but they are really written procedurally or functionally, however the OO mechanisms hamper rather than support the program. [Not all functions should be object methods](http://weblog.raganwald.com/2007/10/too-much-of-good-thing-not-all.html "Too much of a good thing: not all functions should be object methods"). The original version was blatant about its behaviour: `times` and `power` were written as lambdas, and it was very obvious that they did one thing only without presenting the facade of polymorphism.
+However, defining them as operators means making them methods in Ruby. This is a little suspect because our code isn't truly polymorphic. It's not like we write `x = y * z` and are oblivious to the implementation of `*` that `y` provides at run time. This is a failing of many OO programs: They look like OO, but they are really written procedurally or functionally, however the OO mechanisms hamper rather than support the program. [Not all functions should be object methods](http://raganwald.com/2007/10/too-much-of-good-thing-not-all.html "Too much of a good thing: not all functions should be object methods"). The original version was blatant about its behaviour: `times` and `power` were written as lambdas, and it was very obvious that they did one thing only without presenting the facade of polymorphism.
 
 `Fibonacci::Matrix` also takes advantage of `Struct`. You can read [all about Struct](http://blog.grayproductions.net/articles/all_about_struct) if you are not familiar with this handy tool. Note that `Struct.new` returns a class, not an instance of a Struct. This is a very handy paradigm for Ruby programs.
 
@@ -66,13 +66,17 @@ p.s. *Another* post on Fibonacci? *Dude, WTF!?* My response is to paraphrase [Di
 
 ---
 
-Recent work:
+My recent work:
 
-* "[CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto)", "[Kestrels, Quirky Birds, and Hopeless Egocentricity](http://leanpub.com/combinators)" and my [other books](http://leanpub.com/u/raganwald).
-* [Cafe au Life](http://recursiveuniver.se), a CoffeeScript implementation of Bill Gosper's HashLife written in the [Williams Style](https://github.com/raganwald/homoiconic/blob/master/2011/11/COMEFROM.md).
-* [Katy](http://github.com/raganwald/Katy), a library for writing fluent CoffeeScript and JavaScript using combinators.
-* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily. 
+![](http://i.minus.com/iL337yTdgFj7.png)[![JavaScript Allongé](http://i.minus.com/iW2E1A8M5UWe6.jpeg)](http://leanpub.com/javascript-allonge "JavaScript Allongé")![](http://i.minus.com/iL337yTdgFj7.png)[![CoffeeScript Ristretto](http://i.minus.com/iMmGxzIZkHSLD.jpeg)](http://leanpub.com/coffeescript-ristretto "CoffeeScript Ristretto")![](http://i.minus.com/iL337yTdgFj7.png)[![Kestrels, Quirky Birds, and Hopeless Egocentricity](http://i.minus.com/ibw1f1ARQ4bhi1.jpeg)](http://leanpub.com/combinators "Kestrels, Quirky Birds, and Hopeless Egocentricity")
+
+* [JavaScript Allongé](http://leanpub.com/javascript-allonge), [CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto), and my [other books](http://leanpub.com/u/raganwald).
+* [allong.es](http://allong.es), practical function combinators and decorators for JavaScript.
+* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily.
+* [jQuery Combinators](http://github.com/raganwald/jquery-combinators), what else? A jQuery plugin for writing your own fluent, jQuery-like code.  
 
 ---
+
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
 
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)

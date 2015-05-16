@@ -236,4 +236,6 @@ This feature can easily be added to CoffeeScript, without a new operator, by sim
 
 ---
 
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
+
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)

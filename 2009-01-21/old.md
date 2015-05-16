@@ -16,7 +16,7 @@ The voice that says "Putting several programmers in an open room where they can 
 Mammalian Thinking
 ---
 
-I was trading a few ideas with Pete Forde of [unspace](http://www.unspace.ca/ "Unspace") this morning, and I trotted out a metaphor. I apologise for this, I am not trying to turn this little note into one of those blog posts that tries so hard to explain that software is like a soap bubble or whatever. I despise the idea of saying that "[Building software is just like X](http://weblog.raganwald.com/2007/08/bricks.html "Bricks")" _for any value of X_. But the metaphor was that of Mammals during the Great Extinction that wiped out the Dinosaurs.
+I was trading a few ideas with Pete Forde of [unspace](http://www.unspace.ca/ "Unspace") this morning, and I trotted out a metaphor. I apologise for this, I am not trying to turn this little note into one of those blog posts that tries so hard to explain that software is like a soap bubble or whatever. I despise the idea of saying that "[Building software is just like X](http://raganwald.com/2007/08/bricks.html "Bricks")" _for any value of X_. But the metaphor was that of Mammals during the Great Extinction that wiped out the Dinosaurs.
 
 Prior to the extinction, the story goes, Mammals were insignificant players. Dinosaurs were superior in every way until something happened--possibly the creation of the Gulf of Mexico--and the Dinosaurs were wiped out. This created a huge, world-wide opportunity for something, anything to replace them, and mammals happened to be better than everything else at taking over a vacant ecological space.
 
@@ -24,7 +24,7 @@ Great story. And? Old makes me great at telling stories? No. The idea here is th
 
 But you have them in your head, and sometimes you can look at a new situation and say, "You know, this idea was [a loser in 1989](http://en.wikipedia.org/wiki/Apple_Newton "Apple Newton"), but [it just might work today](http://www.apple.com/iphone/ "Apple iPhone")." Experience with stuff that didn't work can be way more valuable than experience with ideas that worked at the time.
 
-This would be how Ruby got its `yield` keyword. Matz knew about a language called [CLU](http://en.wikipedia.org/wiki/CLU_programming_language "CLU (programming language) - Wikipedia, the free encyclopedia"), invented in 1974-5 by Barbara Liskov and her students (Yes, she is the Liskov of the [Liskov Substitution Principle](http://weblog.raganwald.com/2008/04/is-strictly-equivalent-to.html "IS-STRICTLY-EQUIVALENT-TO-A")). Matz borrowed yield from CLU. Was CLU a success in 1975? Perhaps not in the popularity contest. But knowing about this "old failure" allowed Matz to use its ideas in a new way to help make Ruby a "new success."
+This would be how Ruby got its `yield` keyword. Matz knew about a language called [CLU](http://en.wikipedia.org/wiki/CLU_programming_language "CLU (programming language) - Wikipedia, the free encyclopedia"), invented in 1974-5 by Barbara Liskov and her students (Yes, she is the Liskov of the [Liskov Substitution Principle](http://raganwald.com/2008/04/is-strictly-equivalent-to.html "IS-STRICTLY-EQUIVALENT-TO-A")). Matz borrowed yield from CLU. Was CLU a success in 1975? Perhaps not in the popularity contest. But knowing about this "old failure" allowed Matz to use its ideas in a new way to help make Ruby a "new success."
 
 This is a key benefit of being "older" and "experienced:" You know about old stuff that was ahead of its time, good ideas that didn't pan out for one reason or another. Recycling those is often worth far more than recycling things that everyone knew were successful back then.
 
@@ -41,13 +41,17 @@ Unfinished ideas are opportunities. Old ideas are opportunities. Embrace them.
 
 ---
 
-Recent work:
+My recent work:
 
-* "[CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto)", "[Kestrels, Quirky Birds, and Hopeless Egocentricity](http://leanpub.com/combinators)" and my [other books](http://leanpub.com/u/raganwald).
-* [Cafe au Life](http://recursiveuniver.se), a CoffeeScript implementation of Bill Gosper's HashLife written in the [Williams Style](https://github.com/raganwald/homoiconic/blob/master/2011/11/COMEFROM.md).
-* [Katy](http://github.com/raganwald/Katy), a library for writing fluent CoffeeScript and JavaScript using combinators.
-* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily. 
+![](http://i.minus.com/iL337yTdgFj7.png)[![JavaScript Allongé](http://i.minus.com/iW2E1A8M5UWe6.jpeg)](http://leanpub.com/javascript-allonge "JavaScript Allongé")![](http://i.minus.com/iL337yTdgFj7.png)[![CoffeeScript Ristretto](http://i.minus.com/iMmGxzIZkHSLD.jpeg)](http://leanpub.com/coffeescript-ristretto "CoffeeScript Ristretto")![](http://i.minus.com/iL337yTdgFj7.png)[![Kestrels, Quirky Birds, and Hopeless Egocentricity](http://i.minus.com/ibw1f1ARQ4bhi1.jpeg)](http://leanpub.com/combinators "Kestrels, Quirky Birds, and Hopeless Egocentricity")
+
+* [JavaScript Allongé](http://leanpub.com/javascript-allonge), [CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto), and my [other books](http://leanpub.com/u/raganwald).
+* [allong.es](http://allong.es), practical function combinators and decorators for JavaScript.
+* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily.
+* [jQuery Combinators](http://github.com/raganwald/jquery-combinators), what else? A jQuery plugin for writing your own fluent, jQuery-like code.  
 
 ---
+
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
 
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)

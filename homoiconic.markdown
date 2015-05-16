@@ -34,7 +34,7 @@ The other reason there is no advocacy is that I am invoking the "Transit Cop Cop
 
 > When you ride every day you get to know the cops well. One of them told me that he had a policy of letting people off Scot-free if they told him a story he hadn't heard before. He told me that the last novel excuse he had heard was from a woman who claimed her nails were too wet to reach into her bag, remove the ticket, and punch it before boarding. Nice. He said he let her off on the grounds of novelty and chutzpah.
 
-I have already said a number of things about [abstractions](http://weblog.raganwald.com/2007/07/abbreviation-accidental-complexity-and.html "Abbreviation, Accidental Complexity, and Abstraction"), [functional programming](http://weblog.raganwald.com/2007/03/why-why-functional-programming-matters.html "Why Why Functional Programming Matters Matters"), [meta-programming](http://weblog.raganwald.com/2008/07/my-analyst-warned-me-but.html "My analyst warned me, but metaprogramming was so beautiful I got another analyst"), [metaprogramming again](http://weblog.raganwald.com/2008/03/spaghetti-western-coding.html "Spaghetti-Western Coding"), [brevity](http://weblog.raganwald.com/2007/12/golf-is-good-program-spoiled.html "Golf is a good program spoiled"), and [much more](http://delicious.com/raganwald/raganwald.popular "Popular posts from weblog.raganwald.com"). But I don't want to say any more on subjects like these until I can think of something *novel*. It may be awhile. In the meantime, share and enjoy.
+I have already said a number of things about [abstractions](http://raganwald.com/2007/07/abbreviation-accidental-complexity-and.html "Abbreviation, Accidental Complexity, and Abstraction"), [functional programming](http://raganwald.com/2007/03/why-why-functional-programming-matters.html "Why Why Functional Programming Matters Matters"), [meta-programming](http://raganwald.com/2008/07/my-analyst-warned-me-but.html "My analyst warned me, but metaprogramming was so beautiful I got another analyst"), [metaprogramming again](http://raganwald.com/2008/03/spaghetti-western-coding.html "Spaghetti-Western Coding"), [brevity](http://raganwald.com/2007/12/golf-is-good-program-spoiled.html "Golf is a good program spoiled"), and [much more](http://delicious.com/raganwald/raganwald.popular "Popular posts from raganwald.com"). But I don't want to say any more on subjects like these until I can think of something *novel*. It may be awhile. In the meantime, share and enjoy.
 
 **comments?**
 
@@ -50,13 +50,17 @@ I am [Reg Braithwaite](http://braythwayt.com/). You can reach me by email. My fi
 
 ---
 
-Recent work:
+My recent work:
 
-* "[CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto)", "[Kestrels, Quirky Birds, and Hopeless Egocentricity](http://leanpub.com/combinators)" and my [other books](http://leanpub.com/u/raganwald).
-* [Cafe au Life](http://recursiveuniver.se), a CoffeeScript implementation of Bill Gosper's HashLife written in the [Williams Style](https://github.com/raganwald/homoiconic/blob/master/2011/11/COMEFROM.md).
-* [Katy](http://github.com/raganwald/Katy), a library for writing fluent CoffeeScript and JavaScript using combinators.
-* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily. 
+![](http://i.minus.com/iL337yTdgFj7.png)[![JavaScript Allongé](http://i.minus.com/iW2E1A8M5UWe6.jpeg)](http://leanpub.com/javascript-allonge "JavaScript Allongé")![](http://i.minus.com/iL337yTdgFj7.png)[![CoffeeScript Ristretto](http://i.minus.com/iMmGxzIZkHSLD.jpeg)](http://leanpub.com/coffeescript-ristretto "CoffeeScript Ristretto")![](http://i.minus.com/iL337yTdgFj7.png)[![Kestrels, Quirky Birds, and Hopeless Egocentricity](http://i.minus.com/ibw1f1ARQ4bhi1.jpeg)](http://leanpub.com/combinators "Kestrels, Quirky Birds, and Hopeless Egocentricity")
+
+* [JavaScript Allongé](http://leanpub.com/javascript-allonge), [CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto), and my [other books](http://leanpub.com/u/raganwald).
+* [allong.es](http://allong.es), practical function combinators and decorators for JavaScript.
+* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily.
+* [jQuery Combinators](http://github.com/raganwald/jquery-combinators), what else? A jQuery plugin for writing your own fluent, jQuery-like code.  
 
 ---
+
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
 
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)

@@ -15,19 +15,23 @@ The problem here, the thing that irritates me, is that we are using these mediev
 
 Likewise over in La-la-lisp land we have moved from naked recursion to recursive combinators. Combinators make our programs easier to understand and reason about. Naked recursion is GOTO dressed up in a scholar's mortar and gown. Likewise naked monkey-patching is GOTO dressed up in... Well, it isn't really dressed up, it's more baggy pants performing a frontside grab.
 
-[Metaprogramming is beautiful.](http://weblog.raganwald.com/2008/07/my-analyst-warned-me-but.html "My analyst warned me, but metaprogramming was so beautiful I got another analyst") Now that we have embraced its beauty, let's invest some time and energy taking it to the next level, finding ways to apply abstractions and constraints to it so that we can benefit from it without falling into these entirely avoidable contretemps. I've taken one swing at the bat: I think many of the extensions people have added to core classes (including #andand) ought to be syntactic abstractions rather than methods, so I wrote [RewriteRails](http://github.com/raganwald-deprecated/rewrite_rails).
+[Metaprogramming is beautiful.](http://raganwald.com/2008/07/my-analyst-warned-me-but.html "My analyst warned me, but metaprogramming was so beautiful I got another analyst") Now that we have embraced its beauty, let's invest some time and energy taking it to the next level, finding ways to apply abstractions and constraints to it so that we can benefit from it without falling into these entirely avoidable contretemps. I've taken one swing at the bat: I think many of the extensions people have added to core classes (including #andand) ought to be syntactic abstractions rather than methods, so I wrote [RewriteRails](http://github.com/raganwald-deprecated/rewrite_rails).
 
 Now its your turn. Dazzle me.
 
 ---
 
-Recent work:
+My recent work:
 
-* "[CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto)", "[Kestrels, Quirky Birds, and Hopeless Egocentricity](http://leanpub.com/combinators)" and my [other books](http://leanpub.com/u/raganwald).
-* [Cafe au Life](http://recursiveuniver.se), a CoffeeScript implementation of Bill Gosper's HashLife written in the [Williams Style](https://github.com/raganwald/homoiconic/blob/master/2011/11/COMEFROM.md).
-* [Katy](http://github.com/raganwald/Katy), a library for writing fluent CoffeeScript and JavaScript using combinators.
-* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily. 
+![](http://i.minus.com/iL337yTdgFj7.png)[![JavaScript Allongé](http://i.minus.com/iW2E1A8M5UWe6.jpeg)](http://leanpub.com/javascript-allonge "JavaScript Allongé")![](http://i.minus.com/iL337yTdgFj7.png)[![CoffeeScript Ristretto](http://i.minus.com/iMmGxzIZkHSLD.jpeg)](http://leanpub.com/coffeescript-ristretto "CoffeeScript Ristretto")![](http://i.minus.com/iL337yTdgFj7.png)[![Kestrels, Quirky Birds, and Hopeless Egocentricity](http://i.minus.com/ibw1f1ARQ4bhi1.jpeg)](http://leanpub.com/combinators "Kestrels, Quirky Birds, and Hopeless Egocentricity")
+
+* [JavaScript Allongé](http://leanpub.com/javascript-allonge), [CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto), and my [other books](http://leanpub.com/u/raganwald).
+* [allong.es](http://allong.es), practical function combinators and decorators for JavaScript.
+* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily.
+* [jQuery Combinators](http://github.com/raganwald/jquery-combinators), what else? A jQuery plugin for writing your own fluent, jQuery-like code.  
 
 ---
+
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
 
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)

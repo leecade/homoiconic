@@ -14,7 +14,7 @@ The thrush is written `Txy = yx`. It _reverses_ evaluation. In Ruby terms,
 	thrush.call(a_value).call(a_proc)
 	  => a_proc.call(a_value)
 
-In [No Detail Too Small](http://weblog.raganwald.com/2008/01/no-detail-too-small.html), I defined `Object#into`, an implementation of the thrush as a Ruby method:
+In [No Detail Too Small](http://raganwald.com/2008/01/no-detail-too-small.html), I defined `Object#into`, an implementation of the thrush as a Ruby method:
 
 	class Object
 	  def into expr = nil
@@ -75,7 +75,7 @@ Much better, Ruby 1.9 creates a new scope inside the block and `x` is local to t
 		# ...
 	end
 
-`let` creates a new scope and defines your block local variable inside the block. This [signals](http://weblog.raganwald.com/2007/11/programming-conventions-as-signals.html "Programming conventions as signals") that the block local variable is not used elsewhere. Imperative methods can be easier to understand when they are composed of smaller blocks with well-defined dependencies between them. A variable local to the entire method creates a dependency across the entire method. A variable local to a block only creates dependencies within that block.
+`let` creates a new scope and defines your block local variable inside the block. This [signals](http://raganwald.com/2007/11/programming-conventions-as-signals.html "Programming conventions as signals") that the block local variable is not used elsewhere. Imperative methods can be easier to understand when they are composed of smaller blocks with well-defined dependencies between them. A variable local to the entire method creates a dependency across the entire method. A variable local to a block only creates dependencies within that block.
 
 Although Ruby 1.8 does not enforce this behaviour, it can be useful to write code in this style as a signal to make the code easier to read.
 
@@ -92,13 +92,17 @@ _More on combinators_: [Kestrels](http://github.com/raganwald/homoiconic/tree/ma
 
 ---
 
-Recent work:
+My recent work:
 
-* "[CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto)", "[Kestrels, Quirky Birds, and Hopeless Egocentricity](http://leanpub.com/combinators)" and my [other books](http://leanpub.com/u/raganwald).
-* [Cafe au Life](http://recursiveuniver.se), a CoffeeScript implementation of Bill Gosper's HashLife written in the [Williams Style](https://github.com/raganwald/homoiconic/blob/master/2011/11/COMEFROM.md).
-* [Katy](http://github.com/raganwald/Katy), a library for writing fluent CoffeeScript and JavaScript using combinators.
-* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily. 
+![](http://i.minus.com/iL337yTdgFj7.png)[![JavaScript Allongé](http://i.minus.com/iW2E1A8M5UWe6.jpeg)](http://leanpub.com/javascript-allonge "JavaScript Allongé")![](http://i.minus.com/iL337yTdgFj7.png)[![CoffeeScript Ristretto](http://i.minus.com/iMmGxzIZkHSLD.jpeg)](http://leanpub.com/coffeescript-ristretto "CoffeeScript Ristretto")![](http://i.minus.com/iL337yTdgFj7.png)[![Kestrels, Quirky Birds, and Hopeless Egocentricity](http://i.minus.com/ibw1f1ARQ4bhi1.jpeg)](http://leanpub.com/combinators "Kestrels, Quirky Birds, and Hopeless Egocentricity")
+
+* [JavaScript Allongé](http://leanpub.com/javascript-allonge), [CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto), and my [other books](http://leanpub.com/u/raganwald).
+* [allong.es](http://allong.es), practical function combinators and decorators for JavaScript.
+* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily.
+* [jQuery Combinators](http://github.com/raganwald/jquery-combinators), what else? A jQuery plugin for writing your own fluent, jQuery-like code.  
 
 ---
+
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
 
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)

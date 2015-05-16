@@ -217,7 +217,7 @@ What just happened is that `our_and` is defined as a lambda, with `called_by_nam
 
 There are some important implications of this approach. First, with unhygienic, `our_and` disappears. There is no `our_and` function or method, invocations are replaced by whatever `to` expression you provide. Whereas, `called_by_name` actually defines a lambda for `our_and` and defines it in scope for our block of code.
 
-> Note: Caleb asked about the fetish for lambdas. In Ruby 1.8 MRI, it makes no difference. In other implementations, these constructs will by hygienic. Yet, these implementations do not exist yet. So, either I don't understand YAGNI, or perhaps I have spent too much time with languages like JavaScript that [actually get this right](http://weblog.raganwald.com/2007/08/block-structured-javascript.html "Block-Structured JavaScript"), or I am from the future and I know that Ruby will get this right.
+> Note: Caleb asked about the fetish for lambdas. In Ruby 1.8 MRI, it makes no difference. In other implementations, these constructs will by hygienic. Yet, these implementations do not exist yet. So, either I don't understand YAGNI, or perhaps I have spent too much time with languages like JavaScript that [actually get this right](http://raganwald.com/2007/08/block-structured-javascript.html "Block-Structured JavaScript"), or I am from the future and I know that Ruby will get this right.
 
 Second, even though `temp` is still around and still could shadow some variable where it is defined, it doesn't shadow any definition inside your block. So you could define rewriters with `called_by_name` at the top level or inside of a method somewhere and be assured that you are making 100% hygienic code.
 
@@ -231,13 +231,17 @@ As a example, things like [andand](http://github.com/raganwald/andand/tree "raga
 
 ---
 
-Recent work:
+My recent work:
 
-* "[CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto)", "[Kestrels, Quirky Birds, and Hopeless Egocentricity](http://leanpub.com/combinators)" and my [other books](http://leanpub.com/u/raganwald).
-* [Cafe au Life](http://recursiveuniver.se), a CoffeeScript implementation of Bill Gosper's HashLife written in the [Williams Style](https://github.com/raganwald/homoiconic/blob/master/2011/11/COMEFROM.md).
-* [Katy](http://github.com/raganwald/Katy), a library for writing fluent CoffeeScript and JavaScript using combinators.
-* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily. 
+![](http://i.minus.com/iL337yTdgFj7.png)[![JavaScript Allongé](http://i.minus.com/iW2E1A8M5UWe6.jpeg)](http://leanpub.com/javascript-allonge "JavaScript Allongé")![](http://i.minus.com/iL337yTdgFj7.png)[![CoffeeScript Ristretto](http://i.minus.com/iMmGxzIZkHSLD.jpeg)](http://leanpub.com/coffeescript-ristretto "CoffeeScript Ristretto")![](http://i.minus.com/iL337yTdgFj7.png)[![Kestrels, Quirky Birds, and Hopeless Egocentricity](http://i.minus.com/ibw1f1ARQ4bhi1.jpeg)](http://leanpub.com/combinators "Kestrels, Quirky Birds, and Hopeless Egocentricity")
+
+* [JavaScript Allongé](http://leanpub.com/javascript-allonge), [CoffeeScript Ristretto](http://leanpub.com/coffeescript-ristretto), and my [other books](http://leanpub.com/u/raganwald).
+* [allong.es](http://allong.es), practical function combinators and decorators for JavaScript.
+* [Method Combinators](https://github.com/raganwald/method-combinators), a CoffeeScript/JavaScript library for writing method decorators, simply and easily.
+* [jQuery Combinators](http://github.com/raganwald/jquery-combinators), what else? A jQuery plugin for writing your own fluent, jQuery-like code.  
 
 ---
+
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
 
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)

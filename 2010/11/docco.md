@@ -76,6 +76,8 @@ Discuss this post on [Hacker News](http://news.ycombinator.com/item?id=1883995) 
 
 ---
 
+(Spot a bug or a spelling mistake? This is a Github repo, fork it and send me a pull request!)
+
 [Reg Braithwaite](http://braythwayt.com) | [@raganwald](http://twitter.com/raganwald)
 
 [coffee]: http://jashkenas.github.com/coffee-script/ "CoffeeScript"
